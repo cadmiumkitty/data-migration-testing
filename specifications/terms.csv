@@ -1,0 +1,28 @@
+rdf:subject,rdf:type,rdfs:subPropertyOf,rdfs:label,rdfs:comment
+dqwdg:BusinessUnit,rdfs:Class,,Business Unit,Business Unit at any level of granularity.
+dqwdg:RelationalSchema,rdfs:Class,,Schema,Relational database schema
+dqwdg:RelationalTable,rdfs:Class,,Table,Relational database table
+dqwdg:RelationalColumn,rdfs:Class,,Column,Relational database column
+dqwdg:CommaSeparatedValuesFile,rdfs:Class,,CSV File,
+dqwdg:CommaSeparatedValuesColumn,rdfs:Class,,CSV Column,
+dqwdg:parent,rdf:Property,,parent,Any parent structure in a hierarchy
+dqwdg:name,rdf:Property,,name,Name of an underlying structure such as data container.
+dqwdg:type,rdf:Property,,data type,"Type of data in a container as stated by the data container technology (e.g., int for SQL Server)."
+dqwdg:identity,rdf:Property,,data type,"Identity indicator as stated by the source (e.g., IDENTITY(1,1) for SQL Server)."
+dqwdg:nullability,rdf:Property,,nullability,"Nullability indicator as stated by the source (e.g., NOT NULL for SQL Server)."
+dqwdg:order,rdf:Property,,order,"Required order for sub-containers (e.g., where names of the columns for the CSV files are not provided)."
+dqwdg:format,rdf:Property,,format,"Formalization of the format expectation (e.g., a RegEx used to validate)."
+dqwdg:target,rdf:Property,,target,Target of the mapping.
+dqwdg:action,rdf:Property,,action,Reference to action to perform when mapping from source to target.
+dqwdg:definition,rdf:Property,,definition,Definition of the transformation logic allowing for simple template with {} used to reference other elements of the transformation.
+dqwdg:value,rdf:Property,,value,Any calue used in the transformation.
+dqwdg:expression,rdf:Property,,expression,"Any formal expression used for retrieval (e.g., SQL, XPath) when describing a transformation."
+dqwdg:source,rdf:Property,,source,Any data container that can be referenced as a source for the mapping.
+dqwdg:source1,rdf:Property,dqwdg:source,source1,Named source for the mapping.
+dqwdg:source2,rdf:Property,dqwdg:source,source2,Named source for the mapping.
+dqwdg:tag,rdf:Property,,tag,Arbitrary classification of the mapping used as a visual help.
+dqwdg:personInRoleOwner,rdf:Property,,data owner,Reference to Data Owner for data in a particular container.
+dqwdg:personInRoleSteward,rdf:Property,,data steward,Reference to Data Owner for data in a particular container.
+dqwdg:personInRoleExpert,rdf:Property,,data expert,Reference to Data Owner for data in a particular container.
+dqwdg:businessUnit,rdf:Property,,business unit,Business Unit that person is working in.
+dqwdg:Action,rdfs:Class,,Action,Action to perform when mapping from source to target.

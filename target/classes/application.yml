@@ -1,0 +1,23 @@
+com.dataqualityworks.rdfbuilder:
+    reader:
+        csv:
+            - name: specifications/actions.csv
+            - name: specifications/business-units.csv
+            - name: specifications/containers-source.csv
+            - name: specifications/containers-target.csv
+            - name: specifications/mappings.csv
+            - name: specifications/people.csv
+    writer: 
+        ttl:
+            name: graph.ttl
+    namespaces:
+        - prefix: dqwdg
+          uri: https://dataqualityworks.com/terms/data-governance/
+        - prefix: dqw-bu
+          uri: https://dataqualityworks.com/business-units/
+        - prefix: dqw-cont
+          uri: https://dataqualityworks.com/data-containers/
+        - prefix: dqw-mapping
+          uri: https://dataqualityworks.com/mappings/
+        - prefix: dqw-ppl
+          uri: https://dataqualityworks.com/people/

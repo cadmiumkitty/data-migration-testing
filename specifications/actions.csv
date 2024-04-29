@@ -1,0 +1,7 @@
+rdf:subject,rdf:type,rdfs:label,rdfs:comment
+dqwdg:Filter,dqwdg:Action,Filter,Take records from the source
+dqwdg:Empty,dqwdg:Action,Empty,No mapping for the destination
+dqwdg:Hardcode,dqwdg:Action,Hardcode,Hardcoded value is provided in the destination
+dqwdg:Generate,dqwdg:Action,Generate,Generated value is provided in the destination
+dqwdg:Copy,dqwdg:Action,Copy,Value is taken from the source without change but accounting for any format changes or clean up
+dqwdg:Transform,dqwdg:Action,Transform,Transformation rule is provided with arbitrary level of formality
