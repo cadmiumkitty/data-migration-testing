@@ -13,11 +13,11 @@ com.dataqualityworks.rdfbuilder:
     namespaces:
         - prefix: dqwdg
           uri: https://dataqualityworks.com/terms/data-governance/
-        - prefix: dqw-bu
-          uri: https://dataqualityworks.com/business-units/
-        - prefix: dqw-cont
-          uri: https://dataqualityworks.com/data-containers/
-        - prefix: dqw-mapping
-          uri: https://dataqualityworks.com/mappings/
-        - prefix: dqw-ppl
-          uri: https://dataqualityworks.com/people/
+        - prefix: ex-bu
+          uri: https://example.com/business-units/
+        - prefix: ex-cont
+          uri: https://example.com/data-containers/
+        - prefix: ex-mapping
+          uri: https://example.com/mappings/
+        - prefix: ex-ppl
+          uri: https://example.com/people/
