@@ -5,7 +5,7 @@ Feature: categories.csv extract is complete with respect to source
     Given Source is available
     When Migration is run
     Then Target file "data/categories-{timestamp}.csv" is available
-    And Count for "<dimension>" with "<value>" is "<expected count>"
+    And Count for "<dimension>" with "<value>" is <expected count>
 
     Examples:
       | dimension                 | value       | expected count |

@@ -5,7 +5,7 @@ Feature: categories.csv extract is accurate with respect to source and rules
     Given Source is available
     When Migration is run
     Then Target file "data/categories-{timestamp}.csv" is available
-    And Record where "<lookup column>" is "<lookup_value>" has "<expected column>" as "<expected value>"
+    And Record where "<lookup column>" is "<lookup value>" has "<expected column>" as "<expected value>"
 
     Examples:
       | lookup column     | lookup value | expected column           | expected value |
