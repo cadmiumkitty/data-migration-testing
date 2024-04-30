@@ -1,0 +1,10 @@
+com\dataqualityworks\migration\configuration\RdfBuilderConfigurationProperties.class
+com\dataqualityworks\migration\graph\Graph.class
+com\dataqualityworks\migration\configuration\CsvFileConfiguration.class
+com\dataqualityworks\migration\readers\CsvReader.class
+com\dataqualityworks\migration\writers\TtlWriter.class
+com\dataqualityworks\migration\configuration\ReaderConfiguration.class
+com\dataqualityworks\migration\RdfBuilderApplication.class
+com\dataqualityworks\migration\configuration\WriterConfiguration.class
+com\dataqualityworks\migration\configuration\NamespaceConfiguration.class
+com\dataqualityworks\migration\configuration\TtlFileConfiguration.class

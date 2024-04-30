@@ -1,12 +1,12 @@
-package com.dataqualityworks.rdfbuilder;
+package com.dataqualityworks.migration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.dataqualityworks.rdfbuilder.readers.CsvReader;
-import com.dataqualityworks.rdfbuilder.writers.TtlWriter;
+import com.dataqualityworks.migration.readers.CsvReader;
+import com.dataqualityworks.migration.writers.TtlWriter;
 
 import lombok.extern.slf4j.Slf4j;
 

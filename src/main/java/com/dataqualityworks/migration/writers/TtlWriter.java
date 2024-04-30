@@ -1,4 +1,4 @@
-package com.dataqualityworks.rdfbuilder.writers;
+package com.dataqualityworks.migration.writers;
 
 import java.io.FileWriter;
 import java.io.Writer;
@@ -9,8 +9,8 @@ import org.eclipse.rdf4j.rio.Rio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.dataqualityworks.rdfbuilder.configuration.RdfBuilderConfigurationProperties;
-import com.dataqualityworks.rdfbuilder.graph.Graph;
+import com.dataqualityworks.migration.configuration.RdfBuilderConfigurationProperties;
+import com.dataqualityworks.migration.graph.Graph;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.dataqualityworks.rdfbuilder.graph;
+package com.dataqualityworks.migration.graph;
 
 import org.eclipse.rdf4j.repository.Repository;
 import org.eclipse.rdf4j.repository.sail.SailRepository;

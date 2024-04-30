@@ -1,4 +1,4 @@
-package com.dataqualityworks.rdfbuilder.readers;
+package com.dataqualityworks.migration.readers;
 
 import java.io.FileReader;
 import java.io.Reader;
@@ -16,10 +16,10 @@ import org.eclipse.rdf4j.repository.RepositoryConnection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.dataqualityworks.rdfbuilder.configuration.CsvFileConfiguration;
-import com.dataqualityworks.rdfbuilder.configuration.NamespaceConfiguration;
-import com.dataqualityworks.rdfbuilder.configuration.RdfBuilderConfigurationProperties;
-import com.dataqualityworks.rdfbuilder.graph.Graph;
+import com.dataqualityworks.migration.configuration.CsvFileConfiguration;
+import com.dataqualityworks.migration.configuration.NamespaceConfiguration;
+import com.dataqualityworks.migration.configuration.RdfBuilderConfigurationProperties;
+import com.dataqualityworks.migration.graph.Graph;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;

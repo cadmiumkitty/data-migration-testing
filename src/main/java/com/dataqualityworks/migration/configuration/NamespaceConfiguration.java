@@ -1,4 +1,4 @@
-package com.dataqualityworks.rdfbuilder.configuration;
+package com.dataqualityworks.migration.configuration;
 
 import lombok.Data;
 
