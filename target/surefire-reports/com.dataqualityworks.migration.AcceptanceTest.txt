@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.dataqualityworks.migration.AcceptanceTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.29 s -- in com.dataqualityworks.migration.AcceptanceTest
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.658 s -- in com.dataqualityworks.migration.AcceptanceTest

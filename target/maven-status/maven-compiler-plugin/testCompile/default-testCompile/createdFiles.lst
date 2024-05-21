@@ -1,7 +1,7 @@
+com\dataqualityworks\migration\StepDefinition.class
 com\dataqualityworks\migration\telemetry\TelemetryEvent.class
 com\dataqualityworks\migration\telemetry\TelemetryProbe.class
+com\dataqualityworks\migration\CucumberSpringStepDefinition.class
 com\dataqualityworks\migration\AcceptanceTest.class
 com\dataqualityworks\migration\telemetry\TelemetryEvent$TelemetryEventBuilder.class
-com\dataqualityworks\migration\CucumberSpringStepDefinition.class
-com\dataqualityworks\migration\StepDefinitionsConsistency.class
 com\dataqualityworks\migration\SpringConfiguration.class
