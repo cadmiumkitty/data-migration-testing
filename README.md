@@ -52,4 +52,4 @@ tested in an automated manner with a rule-based tool.
 
 1. Simple naming for the terms with one exception for personInRole naming for Owner, Steward and Expert to keep compatibility with other work.
 2. Simple probe at this point to record testing events, we can probably implement it as annotations over time.
-3. Checks will probably be per dataset as opposed to per dimension. This means that tags will have to be done per data set
+3. Keep per-dataset per-dimension features to simplify tagging.
